@@ -1,7 +1,7 @@
 ---
 description: >-
-  This guide is meant to help developers to install the ProcessMaker Modeler as
-  a standalone application in their local environment
+  Install ProcessMaker Modeler as a standalone application in their local
+  environment.
 ---
 
 # Installing the Modeler
@@ -10,17 +10,13 @@ description: >-
 
 In this guide, you will learn how to install and set up the ProcessMaker Modeler, powerful BPMN modeler built on Vue.js and scaffolded using [Vue CLI 3](https://cli.vuejs.org/). This modern and flexible framework provides developers with a solid foundation for creating dynamic and interactive BPMN modeling applications.
 
-## Pre-requisites
+## Prerequisites
 
 {% hint style="warning" %}
 Before proceeding with the guide, it's important to assess your skill level as a developer. The following skills and knowledge are highly recommended to ensure a smooth implementation: JavaScript, Web Development Experience, Vue.js, Git Fundamentals, and Command Line Interface (CLI).
 {% endhint %}
 
-| Requirement                                                               | Function                                                                                                                                                             | Version        |
-| ------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
-| [Node.js](https://nodejs.org/en)                                          | Node.js is a JavaScript runtime environment to run JavaScript on the server-side. It provides the necessary tools and libraries to build and run VueJS applications. | 16.x or higher |
-| [Node.js Package Manager](https://nodejs.org/en/download/package-manager) | It is a command-line tool and package manager that comes bundled with Node.js                                                                                        | 8.x or higher  |
-| Code Editor                                                               | Choose a code editor of your choice that suits your preferences. Popular code editors for VueJS development include Visual Studio Code, Sublime Text, and Atom.      | Your choice    |
+<table><thead><tr><th>Requirement</th><th width="382.3333333333333">Function</th><th>Version</th></tr></thead><tbody><tr><td><a href="https://nodejs.org/en">Node.js</a></td><td>Node.js is a JavaScript runtime environment to run JavaScript on the server-side. It provides the necessary tools and libraries to build and run VueJS applications.</td><td>16.x or higher</td></tr><tr><td><a href="https://nodejs.org/en/download/package-manager">Node.js Package Manager</a></td><td>Node.js Package Manager is a command-line tool and package manager that comes bundled with Node.js</td><td>8.x or higher</td></tr><tr><td>Code Editor</td><td>Choose a code editor of your choice that suits your preferences. Popular code editors for VueJS development include Visual Studio Code, Sublime Text, and Atom.</td><td>Your choice</td></tr></tbody></table>
 
 ## Modeler Installation Steps
 
@@ -68,14 +64,14 @@ Upon completing the installation and setup process, you should be able to observ
 
 ### Step 5: Create a Production Build (Optional)
 
-To create a production build of the ProcessMaker Modeler, execute the following command:
+To create a production build of ProcessMaker Modeler, execute the following command:
 
 ```sh
 npm run build
 ```
 
-This command will generate a production-ready build of the application, which can be deployed to a web server for production use.
+This command generates a production-ready build of the application which can be deployed to a Web server for production use.
 
 ## Conclusion
 
-The installation process for ProcessMaker's Modeler is simple and can be completed in a few easy steps. By following the instructions provided above, you will be able to successfully install and run the Modeler on your local environment.
+The installation process ProcessMaker's Modeler is simple and can be completed in a few easy steps. By following the instructions provided above, successfully install and run the Modeler on your local environment.
