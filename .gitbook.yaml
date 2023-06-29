@@ -1,0 +1,4 @@
+root: ./
+structure:
+  readme: tutorials/README.md
+  summary: tutorials/SUMMARY.md
