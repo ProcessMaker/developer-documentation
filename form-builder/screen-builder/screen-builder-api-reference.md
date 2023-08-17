@@ -314,8 +314,4 @@ console.log(screenRenderer);
 
 ## Conclusion
 
-In conclusion, developers can leverage this comprehensive reference guide to enhance their proficiency in utilizing ProcessMaker's Screen Builder effectively. Therefore, by understanding the functions, events, and methods, developers can unlock the full potential of the Screen Builder and customize their projects.
-
-## Conclusion
-
 In summary, developers can leverage this comprehensive reference guide to enhance their proficiency in utilizing the ProcessMaker's Screen Builder effectively. Therefore, by understanding the functions, events, and methods, developers can unlock the full potential of the Screen Builder and customize it to their business needs.
