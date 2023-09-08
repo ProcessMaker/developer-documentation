@@ -2,27 +2,19 @@
 
 * [Homepage](README.md)
 
+## Authentication
+
+* [Creating a Client Application](authentication/creating-a-client-application.md)
+
 ## Working with the API
 
-* [How to Get an Access Token](working-with-the-api/how-to-get-an-access-token/README.md)
-  * [Python Example](working-with-the-api/how-to-get-an-access-token/python-example.md)
-  * [Node.js Example](working-with-the-api/how-to-get-an-access-token/node.js-example.md)
-  * [Postman Example](working-with-the-api/how-to-get-an-access-token/postman-example.md)
+* [How to Get an Access Token](working-with-the-api/how-to-get-an-access-token.md)
 * [How to Start a Process's Request](working-with-the-api/how-to-start-a-processs-request.md)
-* [How to Start a Process via the DMN Engine](working-with-the-api/how-to-start-a-process-via-the-dmn-engine.md)
+* [Starting a Request via Web Hook](working-with-the-api/starting-a-request-via-web-hook.md)
 
 ## Tools
 
 * [Postman Collection](tools/postman-collection.md)
-
-## Authentication
-
-* [Creating a Client Application](authentication/creating-a-client-application.md)
-* [OAuth 2.0](authentication/oauth-2.0/README.md)
-  * [Supported OAuth Grant Types](authentication/oauth-2.0/supported-oauth-grant-types/README.md)
-    * [Authorization Code](authentication/oauth-2.0/supported-oauth-grant-types/authorization-code.md)
-    * [Password](authentication/oauth-2.0/supported-oauth-grant-types/password.md)
-    * [Client Credentials](authentication/oauth-2.0/supported-oauth-grant-types/client-credentials.md)
 
 ## Platform API Reference
 
