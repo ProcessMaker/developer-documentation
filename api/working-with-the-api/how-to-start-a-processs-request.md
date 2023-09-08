@@ -191,4 +191,43 @@ Once you have configured the request, you can press the "Send" button to send th
 
 That's it! You now know how to create a new process instance using the ProcessMaker 4 REST API in Postman. Remember to replace `<your-instance>`, `<your-access-token>`, and `<process_id>` with actual values.
 {% endtab %}
+
+{% tab title="CURL" %}
+## Pre-requisites
+
+| Requirement                      | Function                                                          | Version                                                                                              |
+| -------------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| <p>Postman or a Terminal<br></p> | The tool we will use to make API calls to ProcessMaker 4 REST API | Latest                                                                                               |
+| Access token                     | For authenticating with the API.                                  | instructions for obtaining from the [How to Get an Access Token](how-to-get-an-access-token.md) page |
+
+## Step 1: Setting Up Your API Request
+
+The ProcessMaker 4 REST API uses HTTP protocols. In this case, we will be sending a POST request to create a new request.
+
+### Execute the following command in your terminal
+
+{% code overflow="wrap" %}
+```bash
+curl -X POST "https://<your-instance>/api/1.0/process_events/<process_id>" -H "Authorization: Bearer <access_token>" -d ""
+```
+{% endcode %}
+
+{% hint style="info" %}
+Don't forget!
+
+Replace:
+
+* `<your-instance>` with your actual ProcessMaker instance URL.
+* `<process_id>` with the ID of the process you wish to start.
+* `<access_token>` with your actual access token.
+{% endhint %}
+
+## Step 2: Review the Response
+
+After executing the command, you should receive a response from the server. This will provide details about the process instance you've started or any potential errors.
+
+## Conclusion
+
+Using the `curl` command directly from the command line offers a swift and efficient method to interact with the ProcessMaker 4 REST API. By following the steps outlined in this guide, you can seamlessly initiate a Process instance, termed a Request, without the need for intermediary scripts or tools. This approach not only simplifies the process but also enhances the speed at which developers can test and integrate with the API. Always ensure you handle your access tokens with care, as they are crucial for secure communication with the API.
+{% endtab %}
 {% endtabs %}
