@@ -10,6 +10,10 @@ description: >-
 
 This guide walks you through the steps of obtaining an access token for making restful api calls to ProcessMaker. You will be able to obtain an access token and then consume the api. After you complete this document, you will want to go to  [how-to-start-a-processs-request.md](how-to-start-a-processs-request.md "mention")
 
+{% hint style="info" %}
+Don't forget to replace placeholders like `<your-instance>`, `<your-client-id>`, etc., with your actual values. Always protect your client secret, access tokens, personal access tokens, and user credentials.
+{% endhint %}
+
 {% tabs %}
 {% tab title="Python" %}
 ## **Step 1: Install Necessary Python Libraries**
@@ -284,4 +288,69 @@ Remember: Always protect your client secret, access tokens, and user credentials
 
 That's it! You now know how to get an access token using OAuth 2.0 in Postman.
 {% endtab %}
+
+{% tab title="Curl" %}
+## Step 1: Set Up Your Client Application
+
+If you arrived here before [creating your client application](../authentication/creating-a-client-application.md), you first need to do so. Otherwise, proceed to step 2 if you have your client ID and client secret already.
+
+
+
+## Step 2: Use the Correct Grant Type
+
+### **Authorization Code**
+
+This is used by web and mobile applications and involves the following steps:
+
+1. Redirect the user to the authorization server (ProcessMaker).
+2. The user authorizes the application.
+3. The application exchanges an authorization code for an access token.
+
+{% code overflow="wrap" %}
+```bash
+# Redirect user to authorization URL
+echo "Please go to the following URL and authorize the app: https://<your-instance>.processmaker.net/oauth/authorize?client_id=<your-client-id>&redirect_uri=<your-redirect-uri>&scope=<your-scope>"
+
+# Exchange the authorization code for an access token
+curl -X POST "https://<your-instance>.processmaker.net/oauth/token" \
+     -d "grant_type=authorization_code&code=<authorization-code>&client_id=<your-client-id>&client_secret=<your-client-secret>&redirect_uri=<your-redirect-uri>"
+```
+{% endcode %}
+
+### **Password Grant**
+
+This is used by applications that are highly trusted, like those installed on a personal device by the user.
+
+{% code overflow="wrap" %}
+```bash
+curl -X POST "https://<your-instance>.processmaker.net/oauth/token" \
+     -d "grant_type=password&username=<your-username>&password=<your-password>&client_id=<your-client-id>&client_secret=<your-client-secret>"
+```
+{% endcode %}
+
+### **Personal Access Tokens**
+
+A Personal Access Token (PAT) is an alternative to using a password for authentication to the API.
+
+```bash
+curl -X GET "https://<your-instance>.processmaker.net/api/<your-endpoint>" \
+     -H "Authorization: Bearer <your-personal-access-token>"
+```
+
+### Step 3: Making API Request
+
+After obtaining your access token, you can use it to make authenticated requests to the API.
+
+```bash
+curl -X GET "https://<your-instance>.processmaker.net/api/<your-endpoint>" \
+     -H "Authorization: Bearer <your-access-token>"
+```
+
+## Conclusion
+
+Utilizing `curl` provides a straightforward and efficient method for interacting with the ProcessMaker API. By following the steps outlined in this guide, developers can seamlessly obtain access tokens and make authenticated requests to the API. As with all authentication methods, it's imperative to handle credentials with care, ensuring they remain confidential. With the power of `curl` at your fingertips, you're well-equipped to harness the capabilities of the ProcessMaker platform, driving innovation and efficiency in your workflows.
+{% endtab %}
 {% endtabs %}
+
+
+
