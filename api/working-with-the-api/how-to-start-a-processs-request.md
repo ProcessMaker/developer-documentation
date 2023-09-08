@@ -208,7 +208,9 @@ The ProcessMaker 4 REST API uses HTTP protocols. In this case, we will be sendin
 
 {% code overflow="wrap" %}
 ```bash
-curl -X POST "https://<your-instance>/api/1.0/process_events/<process_id>" -H "Authorization: Bearer <access_token>" -d ""
+curl -X POST "https://<your-instance>/api/1.0/process_events/<process_id>" \
+     -H "Authorization: Bearer <access_token>" \
+     -d '{"key1":"value1", "key2":"value2", ...}'
 ```
 {% endcode %}
 
@@ -220,6 +222,10 @@ Replace:
 * `<your-instance>` with your actual ProcessMaker instance URL.
 * `<process_id>` with the ID of the process you wish to start.
 * `<access_token>` with your actual access token.
+*   `{"key1":"value1", "key2":"value2", ...}` with your actual payload data.
+
+    \
+
 {% endhint %}
 
 ## Step 2: Review the Response
