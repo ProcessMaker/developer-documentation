@@ -8,7 +8,7 @@ description: >-
 
 ## Overview
 
-This guide walks you through the steps of obtaining an access token for making restful api calls to ProcessMaker. You will be able to obtain an access token and then consume the api. After you complete this document, you will want to go to  [how-to-start-a-processs-request.md](how-to-start-a-processs-request.md "mention")
+This guide walks you through the steps of obtaining an access token for making restful api calls to ProcessMaker. You will be able to obtain an access token and then consume the api. After you complete this document, you will want to go to  [how-to-start-a-processs-request.md](../working-with-the-api/how-to-start-a-processs-request.md "mention")
 
 {% hint style="info" %}
 Don't forget to replace placeholders like `<your-instance>`, `<your-client-id>`, etc., with your actual values. Always protect your client secret, access tokens, personal access tokens, and user credentials.
@@ -28,7 +28,7 @@ pip install requests oauthlib
 
 ## **Step 2: Set Up Your Client Application**
 
-If you came here before [creating your client application](../authentication/creating-a-client-application.md), you first need to do so. Otherwise, go to step 3 if you have your client id and client secret already.
+If you came here before [creating your client application](creating-a-client-application.md), you first need to do so. Otherwise, go to step 3 if you have your client id and client secret already.
 
 ## **Step 3: Use the Correct Grant Type**
 
@@ -162,7 +162,7 @@ This command tells npm (node package manager) to install the `request` library. 
 
 ## **Step 2: Set Up Your Client Application**
 
-If you came here before [creating your client application](../authentication/creating-a-client-application.md), you first need to do so. Otherwise, go to step 3 if you have your client id and client secret already.
+If you came here before [creating your client application](creating-a-client-application.md), you first need to do so. Otherwise, go to step 3 if you have your client id and client secret already.
 
 ## **Step 3: Writing the code**
 
@@ -223,7 +223,7 @@ And voila! You've just written a Node.js script to get an access token from the 
 
 ## **Step 2: Set Up Your Client Application**
 
-If you came here before [creating your client application](../authentication/creating-a-client-application.md), you first need to do so. Otherwise, go to step 3 if you have your client id and client secret already.
+If you came here before [creating your client application](creating-a-client-application.md), you first need to do so. Otherwise, go to step 3 if you have your client id and client secret already.
 
 ## **Step 3: Create a New Request**
 
@@ -292,7 +292,7 @@ That's it! You now know how to get an access token using OAuth 2.0 in Postman.
 {% tab title="Curl" %}
 ## Step 1: Set Up Your Client Application
 
-If you arrived here before [creating your client application](../authentication/creating-a-client-application.md), you first need to do so. Otherwise, proceed to step 2 if you have your client ID and client secret already.
+If you arrived here before [creating your client application](creating-a-client-application.md), you first need to do so. Otherwise, proceed to step 2 if you have your client ID and client secret already.
 
 
 

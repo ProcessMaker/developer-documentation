@@ -14,10 +14,10 @@ This guide walks you through the steps to create a new Process instance, called 
 {% tab title="Python" %}
 
 
-| Requirement                                                  | Function                                                            | Version                                                                                              |
-| ------------------------------------------------------------ | ------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| <p>Python<br>Dependencies:</p><ul><li>requests<br></li></ul> | The programming language and modules we are using for this tutorial | <p>Python 3+<br>Requests will install default latest version which is fine.</p>                      |
-| Access token                                                 | For authenticating with the API.                                    | instructions for obtaining from the [How to Get an Access Token](how-to-get-an-access-token.md) page |
+| Requirement                                                  | Function                                                            | Version                                                                                                                |
+| ------------------------------------------------------------ | ------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| <p>Python<br>Dependencies:</p><ul><li>requests<br></li></ul> | The programming language and modules we are using for this tutorial | <p>Python 3+<br>Requests will install default latest version which is fine.</p>                                        |
+| Access token                                                 | For authenticating with the API.                                    | instructions for obtaining from the [How to Get an Access Token](../authentication/how-to-get-an-access-token.md) page |
 
 ## Step 1: Preparing Your Python Environment
 
@@ -90,7 +90,7 @@ That's it! You now know how to create a new process instance using the ProcessMa
 | Requirement                                                             | Function                                                            | Version                                                                                                                                                           |
 | ----------------------------------------------------------------------- | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <p>Node.js<br>Dependencies:</p><ul><li><code>axios</code><br></li></ul> | The programming language and modules we are using for this tutorial | <ul><li>Nodejs 8+</li><li>NPM 8-16</li></ul><p>Note: this is the ProcessMaker compatible version, this tutorial should work with the latest versions as well.</p> |
-| Access token                                                            | For authenticating with the API.                                    | instructions for obtaining from the [How to Get an Access Token](how-to-get-an-access-token.md) page                                                              |
+| Access token                                                            | For authenticating with the API.                                    | instructions for obtaining from the [How to Get an Access Token](../authentication/how-to-get-an-access-token.md) page                                            |
 
 ## Step 1: Preparing Your Node.js Environment
 
@@ -159,10 +159,10 @@ That's it! You now know how to create a new process request using the ProcessMak
 {% tab title="Postman" %}
 
 
-| Requirement        | Function                                                          | Version                                                                                              |
-| ------------------ | ----------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| <p>Postman<br></p> | The tool we will use to make API calls to ProcessMaker 4 REST API | Latest                                                                                               |
-| Access token       | For authenticating with the API.                                  | instructions for obtaining from the [How to Get an Access Token](how-to-get-an-access-token.md) page |
+| Requirement        | Function                                                          | Version                                                                                                                |
+| ------------------ | ----------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| <p>Postman<br></p> | The tool we will use to make API calls to ProcessMaker 4 REST API | Latest                                                                                                                 |
+| Access token       | For authenticating with the API.                                  | instructions for obtaining from the [How to Get an Access Token](../authentication/how-to-get-an-access-token.md) page |
 
 ## Step 1: Open Postman
 
@@ -195,10 +195,10 @@ That's it! You now know how to create a new process instance using the ProcessMa
 {% tab title="CURL" %}
 ## Pre-requisites
 
-| Requirement                      | Function                                                          | Version                                                                                              |
-| -------------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| <p>Postman or a Terminal<br></p> | The tool we will use to make API calls to ProcessMaker 4 REST API | Latest                                                                                               |
-| Access token                     | For authenticating with the API.                                  | instructions for obtaining from the [How to Get an Access Token](how-to-get-an-access-token.md) page |
+| Requirement                      | Function                                                          | Version                                                                                                                |
+| -------------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| <p>Postman or a Terminal<br></p> | The tool we will use to make API calls to ProcessMaker 4 REST API | Latest                                                                                                                 |
+| Access token                     | For authenticating with the API.                                  | instructions for obtaining from the [How to Get an Access Token](../authentication/how-to-get-an-access-token.md) page |
 
 ## Step 1: Setting Up Your API Request
 
