@@ -289,7 +289,7 @@ Remember: Always protect your client secret, access tokens, and user credentials
 That's it! You now know how to get an access token using OAuth 2.0 in Postman.
 {% endtab %}
 
-{% tab title="Curl" %}
+{% tab title="cURL" %}
 ## Step 1: Set Up Your Client Application
 
 If you arrived here before [creating your client application](creating-a-client-application.md), you first need to do so. Otherwise, proceed to step 2 if you have your client ID and client secret already.

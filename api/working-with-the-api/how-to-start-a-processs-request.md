@@ -192,7 +192,7 @@ Once you have configured the request, you can press the "Send" button to send th
 That's it! You now know how to create a new process instance using the ProcessMaker 4 REST API in Postman. Remember to replace `<your-instance>`, `<your-access-token>`, and `<process_id>` with actual values.
 {% endtab %}
 
-{% tab title="CURL" %}
+{% tab title="cURL" %}
 ## Pre-requisites
 
 | Requirement                      | Function                                                          | Version                                                                                                                |

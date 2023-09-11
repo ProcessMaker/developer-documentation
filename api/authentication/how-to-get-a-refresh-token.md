@@ -193,7 +193,7 @@ After obtaining the refreshed access token, Postman will automatically add the `
 That's it! You now know how to refresh an access token using OAuth 2.0 in Postman. Regularly refreshing your access token ensures uninterrupted access to the ProcessMaker API.
 {% endtab %}
 
-{% tab title="CURL" %}
+{% tab title="cURL" %}
 ## Step 1: Obtaining the access token
 
 {% content-ref url="how-to-get-an-access-token.md" %}
