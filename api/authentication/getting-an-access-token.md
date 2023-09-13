@@ -4,11 +4,11 @@ description: >-
   Password Grant, and Personal Access Tokens.
 ---
 
-# How to Get an Access Token
+# Getting an Access Token
 
 ## Overview
 
-This guide walks you through the steps of obtaining an access token for making restful api calls to ProcessMaker. You will be able to obtain an access token and then consume the api. After you complete this document, you will want to go to  [how-to-start-a-processs-request.md](../working-with-the-api/how-to-start-a-processs-request.md "mention")
+This guide walks you through the steps of obtaining an access token for making restful api calls to ProcessMaker. You will be able to obtain an access token and then consume the api. After you complete this document, you will want to go to  [starting-a-request-via-rest-api.md](../working-with-the-api/starting-a-request-via-rest-api.md "mention")
 
 {% hint style="info" %}
 Don't forget to replace placeholders like `<your-instance>`, `<your-client-id>`, etc., with your actual values. Always protect your client secret, access tokens, personal access tokens, and user credentials.

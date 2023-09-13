@@ -5,12 +5,12 @@
 ## Authentication
 
 * [Creating a Client Application](authentication/creating-a-client-application.md)
-* [How to Get an Access Token](authentication/how-to-get-an-access-token.md)
-* [How to Get a Refresh Token](authentication/how-to-get-a-refresh-token.md)
+* [Getting an Access Token](authentication/getting-an-access-token.md)
+* [Getting a Refresh Token](authentication/getting-a-refresh-token.md)
 
 ## Working with the API
 
-* [How to Start a Process's Request](working-with-the-api/how-to-start-a-processs-request.md)
+* [Starting a Request via REST API](working-with-the-api/starting-a-request-via-rest-api.md)
 * [Starting a Request via Web Hook](working-with-the-api/starting-a-request-via-web-hook.md)
 
 ## Tools

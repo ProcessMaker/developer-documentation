@@ -2,18 +2,18 @@
 description: This guide covers the OAuth 2.0 refresh token mechanism.
 ---
 
-# How to Get a Refresh Token
+# Getting a Refresh Token
 
 ## Overview
 
-This guide walks you through the steps of refreshing an access token for making RESTful API calls to ProcessMaker. Access tokens typically have a limited lifespan, and once they expire, they need to be refreshed using a refresh token. This guide assumes you already have a refresh token. If not, refer to the ["How to Get an Access Token"](how-to-get-an-access-token.md) guide.
+This guide walks you through the steps of refreshing an access token for making RESTful API calls to ProcessMaker. Access tokens typically have a limited lifespan, and once they expire, they need to be refreshed using a refresh token. This guide assumes you already have a refresh token. If not, refer to the ["How to Get an Access Token"](getting-an-access-token.md) guide.
 
 {% tabs %}
 {% tab title="Python" %}
 ## Step 1: Obtaining the access token
 
-{% content-ref url="how-to-get-an-access-token.md" %}
-[how-to-get-an-access-token.md](how-to-get-an-access-token.md)
+{% content-ref url="getting-an-access-token.md" %}
+[getting-an-access-token.md](getting-an-access-token.md)
 {% endcontent-ref %}
 
 ## Step 2: Install Necessary Python Dependencies
@@ -75,8 +75,8 @@ Refreshing your access token is an essential step in maintaining uninterrupted a
 {% tab title="Node.js" %}
 ## Step 1: Obtaining the access token
 
-{% content-ref url="how-to-get-an-access-token.md" %}
-[how-to-get-an-access-token.md](how-to-get-an-access-token.md)
+{% content-ref url="getting-an-access-token.md" %}
+[getting-an-access-token.md](getting-an-access-token.md)
 {% endcontent-ref %}
 
 ## Step 2: Install Necessary Node.js Libraries
@@ -143,8 +143,8 @@ Refreshing your access token is an essential step in maintaining uninterrupted a
 {% tab title="Postman" %}
 ## Step 1: Obtaining the access token
 
-{% content-ref url="how-to-get-an-access-token.md" %}
-[how-to-get-an-access-token.md](how-to-get-an-access-token.md)
+{% content-ref url="getting-an-access-token.md" %}
+[getting-an-access-token.md](getting-an-access-token.md)
 {% endcontent-ref %}
 
 ## Step 2: Download and Install Postman
@@ -196,8 +196,8 @@ That's it! You now know how to refresh an access token using OAuth 2.0 in Postma
 {% tab title="cURL" %}
 ## Step 1: Obtaining the access token
 
-{% content-ref url="how-to-get-an-access-token.md" %}
-[how-to-get-an-access-token.md](how-to-get-an-access-token.md)
+{% content-ref url="getting-an-access-token.md" %}
+[getting-an-access-token.md](getting-an-access-token.md)
 {% endcontent-ref %}
 
 ## Step 2: Refreshing the Access Token
