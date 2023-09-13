@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Homepage](README.md)
+* [API Homepage](README.md)
 
 ## Authentication
 
