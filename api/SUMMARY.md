@@ -1,25 +1,8 @@
 # Table of contents
 
-* [API Homepage](README.md)
-
-## Authentication
-
-* [Creating a Client Application](authentication/creating-a-client-application.md)
-* [Getting an Access Token](authentication/getting-an-access-token.md)
-* [Getting a Refresh Token](authentication/getting-a-refresh-token.md)
-
-## Working with the API
-
-* [Starting a Request via REST API](working-with-the-api/starting-a-request-via-rest-api.md)
-* [Starting a Request via Web Hook](working-with-the-api/starting-a-request-via-web-hook.md)
-
-## Tools
-
-* [Postman Collection](tools/postman-collection.md)
-
 ## Platform API Reference
 
-* [Users](platform-api-reference/users.md)
+* [Users](README.md)
 * [Groups](platform-api-reference/groups.md)
 * [Requests](platform-api-reference/requests.md)
 * [Tasks](platform-api-reference/tasks.md)
@@ -38,3 +21,7 @@
 * [Decision Engine](premium-api-reference/decision-engine.md)
 * [Saved Search](premium-api-reference/saved-search.md)
 * [Versions](premium-api-reference/versions.md)
+
+## Tools
+
+* [Postman Collection](tools/postman-collection.md)
