@@ -25,3 +25,7 @@
 ## Tools
 
 * [Postman Collection](tools/postman-collection.md)
+
+## ProcessMaker Platform API Documentation
+
+* [Access ProcessMaker Platform RESTful API Documentation](processmaker-platform-api-documentation/access-processmaker-platform-restful-api-documentation.md)
