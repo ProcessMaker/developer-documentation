@@ -1,8 +1,14 @@
 # Table of contents
 
+## ProcessMaker Platform API Documentation
+
+***
+
+* [Access ProcessMaker Platform RESTful API Documentation](README.md)
+
 ## Platform API Reference
 
-* [Users](README.md)
+* [Users](<README (1).md>)
 * [Groups](platform-api-reference/groups.md)
 * [Requests](platform-api-reference/requests.md)
 * [Tasks](platform-api-reference/tasks.md)
@@ -25,7 +31,3 @@
 ## Tools
 
 * [Postman Collection](tools/postman-collection.md)
-
-## ProcessMaker Platform API Documentation
-
-* [Access ProcessMaker Platform RESTful API Documentation](processmaker-platform-api-documentation/access-processmaker-platform-restful-api-documentation.md)
