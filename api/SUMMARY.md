@@ -4,7 +4,7 @@
 
 ***
 
-* [Access ProcessMaker Platform RESTful API Documentation](README.md)
+* [ProcessMaker Platform RESTful API](README.md)
 
 ## Platform API Reference
 
