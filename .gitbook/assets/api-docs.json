@@ -3362,6 +3362,12 @@
                                         "items": {
                                             "type": "object"
                                         }
+                                    },
+                                    "config2": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "object"
+                                        }
                                     }
                                 },
                                 "type": "object"
