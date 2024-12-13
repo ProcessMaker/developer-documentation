@@ -2,8 +2,6 @@
 
 ## ProcessMaker Platform API Documentation
 
-***
-
 * [ProcessMaker Platform RESTful API](README.md)
 
 ## Platform API Reference
