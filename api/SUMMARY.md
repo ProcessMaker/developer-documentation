@@ -8,7 +8,7 @@
 
 ## Platform API Reference
 
-* [Users](<README (1).md>)
+* [Users](platform-api-reference/users.md)
 * [Groups](platform-api-reference/groups.md)
 * [Requests](platform-api-reference/requests.md)
 * [Tasks](platform-api-reference/tasks.md)
