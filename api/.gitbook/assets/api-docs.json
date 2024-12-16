@@ -3362,6 +3362,9 @@
                                         "items": {
                                             "type": "object"
                                         }
+                                    },
+                                    "sync": {
+                                        "type": "boolean"
                                     }
                                 },
                                 "type": "object"
